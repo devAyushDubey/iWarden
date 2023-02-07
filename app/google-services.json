@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "702569391197",
+    "project_id": "iwarden-86b05",
+    "storage_bucket": "iwarden-86b05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702569391197:android:bb4f1936775f452d8dd9b4",
+        "android_client_info": {
+          "package_name": "com.ayush.iwarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702569391197-u0na3ogfuo106snjagr5ul60mjmq3b2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayush.iwarden",
+            "certificate_hash": "21f0a4728076e0064472cec73c355c4f6f90d37b"
+          }
+        },
+        {
+          "client_id": "702569391197-4orp6ho0kr3mv1m6f82a50m0i6mtpcvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0PYR_MA3NVAysTvoRtP7poGgdUYszwxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702569391197-4orp6ho0kr3mv1m6f82a50m0i6mtpcvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

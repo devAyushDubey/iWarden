@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LogAsFragment"
+    android:id="@+id/Log_as"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login as:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="@color/colorSecondary"
+        android:fontFamily="@font/sanfrancisco_text_regular"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/stud_butn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/butn_border"
+        android:layout_margin="35dp"
+        android:text="Student"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:drawableStart="@drawable/ic_person"
+        android:drawableEnd="@drawable/icarrow_forward" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/admin_butn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/butn_border2"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="Admin"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:drawableStart="@drawable/ic_reg"
+        android:drawableEnd="@drawable/icarrow_forward" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/staff_butn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/butn_border3"
+        android:layout_margin="35dp"
+        android:text="Staff"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:drawableStart="@drawable/ic_engineering"
+        android:drawableEnd="@drawable/icarrow_forward" />
+
+</LinearLayout>
+

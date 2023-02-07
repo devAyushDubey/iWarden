@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="5dp">
+
+        <RelativeLayout
+            android:id="@+id/Card_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:background="@drawable/red_border">
+
+            <TextView
+                android:id="@+id/author_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warden"
+                android:textSize="20dp"
+                android:fontFamily="@font/sanfrancisco_text_bold"
+                android:textColor="#F44336"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_grievance3"
+                android:drawablePadding="5dp"/>
+
+            <TextView
+                android:id="@+id/date_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="18th July"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/sanfrancisco_text_light"
+                android:textColor="#727272"/>
+
+            <TextView
+                android:id="@+id/Notice_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/author_placeholder"
+                android:text="All the resident of the hostel are notified that the election for the mess commitee will be starting from 22/07/22. All the candidates are requested to be prepared and all the voters to be decisive..."
+                android:textSize="15dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#474747"/>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
